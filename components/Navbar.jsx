@@ -1,9 +1,11 @@
 import React from "react";
+import styles from "../styles/navbar.module.css"
 
 export default function navbar(){
     return(
         <>
-            <nav class="navbar navbar-expand-md bg-white z-3">
+        <nav className={styles.navbar}>
+            <div class="navbar navbar-expand-md bg-white z-3">
                 <div class="container-fluid">
                     <a class="navbar-brand p-0 m-0" >
                         <img src="/PunchClean 1.svg" width="200px" height="100px"/>
@@ -25,7 +27,8 @@ export default function navbar(){
                     </ul>
                     </div>
                 </div>
-            </nav>
+            </div>
+        </nav>
         </>
     )
 }
