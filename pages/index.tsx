@@ -16,12 +16,54 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/PunchClean 1.svg" className='rounded-circle'/>
       </Head>
+
       <main className={styles.main}>
         <div className="container-fluid">
           <div className={styles.cover}>  
-            <h1 className="text-capitalize text-white">Washing Services for your home and offices</h1>
+            <a>
+              <img src="/Example 2.jpg" className={styles.coverPhoto} />
+            </a>
+            <h1 className={styles.overlay}>
+              <a className='text-light text-capitalize text-semi-bold'>Washing Services for your home and offices</a>
+            </h1>
           </div>
-
+          <div className={styles.skills}>
+              <div className={styles.ben} id="Eco-Friendly">
+                <a className='text-light'>
+                   Use eco-friendly cleaning products that will not affect your gardens 
+                </a>
+                <br/>
+                <a className='justify-content-end align-items-end'>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="white" className="bi bi-globe-asia-australia" viewBox="3 0 10 16">
+                    <path d="m10.495 6.92 1.278-.619a.483.483 0 0 0 .126-.782c-.252-.244-.682-.139-.932.107-.23.226-.513.373-.816.53l-.102.054c-.338.178-.264.626.1.736a.476.476 0 0 0 .346-.027ZM7.741 9.808V9.78a.413.413 0 1 1 .783.183l-.22.443a.602.602 0 0 1-.12.167l-.193.185a.36.36 0 1 1-.5-.516l.112-.108a.453.453 0 0 0 .138-.326ZM5.672 12.5l.482.233A.386.386 0 1 0 6.32 12h-.416a.702.702 0 0 1-.419-.139l-.277-.206a.302.302 0 1 0-.298.52l.761.325Z"/>
+                    <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM1.612 10.867l.756-1.288a1 1 0 0 1 1.545-.225l1.074 1.005a.986.986 0 0 0 1.36-.011l.038-.037a.882.882 0 0 0 .26-.755c-.075-.548.37-1.033.92-1.099.728-.086 1.587-.324 1.728-.957.086-.386-.114-.83-.361-1.2-.207-.312 0-.8.374-.8.123 0 .24-.055.318-.15l.393-.474c.196-.237.491-.368.797-.403.554-.064 1.407-.277 1.583-.973.098-.391-.192-.634-.484-.88-.254-.212-.51-.426-.515-.741a6.998 6.998 0 0 1 3.425 7.692 1.015 1.015 0 0 0-.087-.063l-.316-.204a1 1 0 0 0-.977-.06l-.169.082a1 1 0 0 1-.741.051l-1.021-.329A1 1 0 0 0 11.205 9h-.165a1 1 0 0 0-.945.674l-.172.499a1 1 0 0 1-.404.514l-.802.518a1 1 0 0 0-.458.84v.455a1 1 0 0 0 1 1h.257a1 1 0 0 1 .542.16l.762.49a.998.998 0 0 0 .283.126 7.001 7.001 0 0 1-9.49-3.409Z"/>
+                  </svg> 
+                </a>
+              </div>
+              <div className={styles.ben} id="Quality">
+                <a className='text-white text-semi-bold'>
+                  We provide top quality work and will make sure that those sufaces look brand new
+                </a>
+                <a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="white" className="bi bi-check2-square" viewBox="3 0 10 16">
+                  <path d="M3 14.5A1.5 1.5 0 0 1 1.5 13V3A1.5 1.5 0 0 1 3 1.5h8a.5.5 0 0 1 0 1H3a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V8a.5.5 0 0 1 1 0v5a1.5 1.5 0 0 1-1.5 1.5H3z"/>
+                  <path d="m8.354 10.354 7-7a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
+                </svg>
+                </a>
+                <br/>
+              </div> 
+              <div className={styles.ben} id="Affordable">
+                <a className='text-white text-semi-bold'>
+                  We provide affordable pricing to give you at the best rate for the highest quality
+                </a>
+                <br/>
+                <a className=''>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="white" className="bi bi-currency-dollar" viewBox="0 0 16 16">
+                    <path d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718H4zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73l.348.086z"/>
+                  </svg>
+                </a>
+              </div>          
+          </div>
         </div>
       </main>
     </>

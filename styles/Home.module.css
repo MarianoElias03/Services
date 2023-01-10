@@ -18,6 +18,38 @@
   transform: scale(1);
 }
 
+.coverPhoto{
+  margin-top: -6vh;
+  display: block;
+  width: 100%; 
+  height: 120%; 
+  object-fit: cover; 
+  transform: scale(1);
+}
+
+.overlay{
+  position: absolute; 
+  bottom: 100px; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  width: 100%;
+  opacity:1;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.skills{
+  padding: 3rem;
+  background-color: grey;
+  display: flex;
+}
+
+.ben{
+  width: 20vw;
+  display: flex;
+  margin-right: 2rem;
+}
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
