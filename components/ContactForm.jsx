@@ -1,7 +1,26 @@
 import React from "react";
 import styles from "../styles/Contact.module.css"
-import sendEmail from "../pages/api/sendEmail.js"
+
 export default function contactForm(){
+    
+    async function sendEmail(e) {
+    
+        e.preventDefault();
+    
+        const formData = {};
+
+        Array.from(e.currentTarget.elements).forEach(field =>  {
+        if ( !field.name ) return;
+          formData[field.name] = field.value;
+        });
+    
+        await fetch('/api/email', {
+          method: 'POST',
+          body: JSON.stringify(formData)
+        });
+        (document.getElementById('emailform')).reset();
+    }
+    
     return(
         <>
             <form className={styles.submitformcont}  method="post" onSubmit={sendEmail} id='emailform'>
