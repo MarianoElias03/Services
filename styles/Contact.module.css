@@ -1,0 +1,47 @@
+ .fullnamelbl, .fullnamebtn, .textbtn, .textlbl, .emailbtn, .emaillbl {
+    text-align: left;
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+ .fullnamelbl, .emaillbl, .textlbl {
+    color: black;
+    font-size: 1.5rem;
+    align-items: left;
+  }
+ .textbtn, .fullnamebtn, .emailbtn {
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+  }
+  @media screen and (min-width: 769px) {
+     .textbtn, .fullnamebtn, .emailbtn {
+      margin: 1rem 35vw -1rem 0;
+    }
+  }
+   .fullnamebtn, .emailbtn {
+    background-color: rgba(127, 17, 224, 0.4);
+    color: black;
+  }
+  .textbtn {
+    background-color: rgba(127, 17, 224, 0.4);
+    color: black;
+    min-height: 20vh;
+    resize: none;
+  }
+   .submitbtn {
+    display: block;
+    margin: 4% auto -3% auto;
+    border-radius: 10px;
+    border: solid 3px #580AFF;
+    background-color: #580AFF;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: 525;
+  }
+  
