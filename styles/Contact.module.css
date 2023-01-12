@@ -3,7 +3,6 @@
     font-size: large;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     border-radius: 10px;
-    border: none;
     outline: none;
   }
  .fullnamelbl, .emaillbl, .textlbl {
@@ -22,22 +21,24 @@
     }
   }
    .fullnamebtn, .emailbtn {
-    background-color: rgba(127, 17, 224, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
     color: black;
+    border: black solid 2px;
   }
   .textbtn {
-    background-color: rgba(127, 17, 224, 0.4);
+    background-color: rgba(255, 255, 255, 0.4);
     color: black;
     min-height: 20vh;
     resize: none;
+    border: black solid 2px;
   }
    .submitbtn {
     display: block;
     margin: 4% auto -3% auto;
     border-radius: 10px;
-    border: solid 3px #580AFF;
-    background-color: #580AFF;
-    color: white;
+    border: solid 2px #000000;
+    background-color: #ffffff;
+    color: black;
     cursor: pointer;
     align-items: center;
     text-align: center;
