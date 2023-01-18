@@ -15,7 +15,7 @@ export default function contactForm(){
         });
     
         await fetch('/api/email', {
-          method: 'post',
+          method: 'POST',
           body: JSON.stringify(formData)
         });
         (document.getElementById('emailform')).reset();
