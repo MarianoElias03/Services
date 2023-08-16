@@ -28,8 +28,8 @@ export default function Home() {
                 <p className="lead">In the sunlit heart of Brisbane, PunchClean Powerwashers was founded with a singular vision: to breathe new life 
                 into the homes of our community. Recognising the growing demand for meticulous and trustworthy residential cleaning services, 
                 we inaugurated our journey in 2023. At PunchClean Powerwashers, our primary focus has always been the households of Brisbane. Our skilled team is committed to 
-                transforming every nook and cranny of a home’s exterior, from patios to rooftops, ensuring each residence not only shines but also reflects the pride of its occupants. 
-                Through our dedication to excellence and our keen attention to detail, we have quickly become Brisbane's first choice for residential powerwashing solutions.</p>
+                transforming every nook and cranny of a home{"'"}s exterior, from patios to rooftops, ensuring each residence not only shines but also reflects the pride of its occupants. 
+                Through our dedication to excellence and our keen attention to detail, we have quickly become Brisbane{"'"}s first choice for residential powerwashing solutions.</p>
               </div>
             </div>
             <div className="col-md-5">
@@ -44,10 +44,10 @@ export default function Home() {
             <div className={styles.marketingText}>
               <h2 className="featurette-heading fw-normal lh-1 pb-2">Why Us?</h2>
                 <ul className="lead">
-                  <li><p>Local Expertise: As a Brisbane-based team, we understand the unique challenges our homes face from the local climate. We've tailored our services to effectively combat local stains, mildew, and weathering.</p></li>
-                  <li><p>Safe & Efficient Techniques: We employ the safest and most advanced powerwashing techniques, ensuring the integrity of your home's exterior remains uncompromised while delivering pristine results.</p></li>
+                  <li><p>Local Expertise: As a Brisbane-based team, we understand the unique challenges our homes face from the local climate. We{"'"}ve tailored our services to effectively combat local stains, mildew, and weathering.</p></li>
+                  <li><p>Safe & Efficient Techniques: We employ the safest and most advanced powerwashing techniques, ensuring the integrity of your home{"'"}s exterior remains uncompromised while delivering pristine results.</p></li>
                   <li><p>Transparent Pricing: At PunchClean Powerwashers, we pride ourselves on transparent and competitive pricing. No hidden fees, just honest work.</p></li>
-                  <li><p>Friendly, Trained Professionals: Our crew isn't just skilled; they're also Brisbane locals who value community ties. We treat every home with the respect and attention it deserves.</p></li>
+                  <li><p>Friendly, Trained Professionals: Our crew isn{"'"}t just skilled; they{"'"}re also Brisbane locals who value community ties. We treat every home with the respect and attention it deserves.</p></li>
                   <li><p>Environmentally Responsible: We utilize eco-friendly cleaning solutions and water-conservation techniques, ensuring that our services not only make homes shine but also protect our beautiful Brisbane environment.</p></li>
                 </ul>
               </div>
@@ -64,8 +64,8 @@ export default function Home() {
               <div className={styles.marketingText}>
                 <h2 className="featurette-heading fw-normal lh-1 pb-2"> Experience the PunchClean Difference! </h2> 
                 <p className="lead">Slide to reveal the transformative power of our precision powerwashing. On the left, witness years of accumulated dirt, mildew, 
-                and environmental wear. On the right, behold the radiant potential of a PunchClean-treated home. This isn't just cleaning—it's a revitalization, a renewal, a 
-                renaissance of your home's true beauty.
+                and environmental wear. On the right, behold the radiant potential of a PunchClean-treated home. This isn{"'"}t just cleaning{"-"}it{"'"}s a revitalization, a renewal, a 
+                renaissance of your home{"'"}s true beauty.
                 Discover why so many Brisbane residents trust PunchClean Powerwashers to not only clean but to rejuvenate their beloved homes.</p>
               </div>
             </div>
@@ -103,14 +103,14 @@ export default function Home() {
                     <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="gold" stroke="black" className="bi bi-star-fill ms-1" viewBox="0 0 16 16">
                       <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
                     </svg> 
-                    <p>"Exceptional service from PunchClean! Our home hasn't looked this vibrant in years. Highly recommended!" - Sophie L.</p>
+                    <p>{"'"}Exceptional service from PunchClean! Our home hasn{"'"}t looked this vibrant in years. Highly recommended!{"'"} - Sophie L.</p>
 
                   </div>
                 </div>
 
                 <div className="col d-flex align-items-start">
                   <div id="profile" className="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" className="bi bi-person-circle" viewBox="0 0 16 16">
                       <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
                       <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
                     </svg>                    
@@ -131,14 +131,14 @@ export default function Home() {
                     <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="gold" stroke="black" className="bi bi-star-fill ms-1" viewBox="0 0 16 16">
                       <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
                     </svg> 
-                    <p>"Efficient, friendly, and thorough. PunchClean made the whole process seamless. Five stars!" - Jordan T.</p>
+                    <p>{"'"}Efficient, friendly, and thorough. PunchClean made the whole process seamless. Five stars!{"'"} - Jordan T.</p>
 
                   </div>
                 </div>
 
                 <div className="col d-flex align-items-start">
                   <div id="profile" className="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" className="bi bi-person-circle" viewBox="0 0 16 16">
                       <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
                       <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
                     </svg>    
@@ -159,7 +159,7 @@ export default function Home() {
                     <svg  xmlns="http://www.w3.org/2000/svg" width="20" height="25" fill="gold" stroke="black" className="bi bi-star-fill ms-1" viewBox="0 0 16 16">
                       <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
                     </svg> 
-                    <p>"Trusted these guys with my family home, and they delivered beyond expectations. Brisbane's finest!" - Miles D.</p>
+                    <p>{"'"}Trusted these guys with my family home, and they delivered beyond expectations. Brisbane{"'"}s finest!{"'"} - Miles D.</p>
 
                   </div>
                 </div>
@@ -210,7 +210,7 @@ export default function Home() {
             <div className="col-md-7 d-flex align-items-center">
               <div className={styles.marketingText}>
                 <h2 className="featurette-heading fw-normal lh-1 ">Ready for a Home Transformation?</h2> 
-                <p className="lead">Don't let dirt and grime hide your home's true potential. Connect with us today and let's unveil the beauty beneath. Every home has a story, let us help yours shine.</p>
+                <p className="lead">Don{"'"}t let dirt and grime hide your home{"'"}s true potential. Connect with us today and let{"'"}s unveil the beauty beneath. Every home has a story, let us help yours shine.</p>
               </div>
             </div>
             <div className="col-md-5">
@@ -227,7 +227,7 @@ export default function Home() {
                 </div>
                 <div id='textarea' className="col-12 mt-1 mb-1">
                   <label className={styles.textlbl} htmlFor="msg">Message:</label>
-                  <textarea className="form-control" id="msg" name="message" placeholder="Message" rows="8" cols="50"></textarea>
+                  <textarea className="form-control" id="msg" name="message" placeholder="Message" rows={8} cols={50}></textarea>
                 </div>
                 <div className="col-sm-7 mt-3">
                   <button type="button" className="btn btn-primary"> Submit </button>
