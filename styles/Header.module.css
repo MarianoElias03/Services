@@ -1,0 +1,12 @@
+.button {
+    color: var(	--bs-danger-text-emphasis);
+    padding: 10rem;
+  }
+  .button:hover {
+    transition: all 0.5s;
+    color: var(--bs-success);
+  }
+
+.li{
+  color: var(	--bs-danger-text-emphasis);
+}
