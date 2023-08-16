@@ -21,5 +21,9 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "next-purgecss": "^4.0.0"
   }
 }
