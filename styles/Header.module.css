@@ -1,12 +1,16 @@
-.button {
-    color: var(	--bs-danger-text-emphasis);
-    padding: 10rem;
-  }
-  .button:hover {
-    transition: all 0.5s;
-    color: var(--bs-success);
-  }
 
-.li{
-  color: var(	--bs-danger-text-emphasis);
+.navLinks{
+  color: #042F59;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  padding: 0.5em;
+}
+.navLinks:hover{
+  transition: 0.5s;
+  color: #25AFC2;
+
+}
+
+.banner{
+  margin-left: -5rem;
 }
